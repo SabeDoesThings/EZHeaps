@@ -1,6 +1,6 @@
 package src;
 
-import core.EZEntitiy;
+import ezcore.EZEntitiy;
 import hxd.App;
 import h2d.Scene;
 
