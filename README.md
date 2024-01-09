@@ -3,4 +3,7 @@
 
 EZHeaps makes making games in heaps EZ.
 
+Add any issues or features you would like me to add.
+
+# Tutorial
 Tutorial: Soon
