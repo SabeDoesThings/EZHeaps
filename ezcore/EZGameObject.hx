@@ -1,12 +1,12 @@
-package core;
+package ezcore;
 
 import hxd.res.Image;
-import core.EZAnim;
+import ezcore.EZAnim;
 import h2d.col.Bounds;
 import h2d.Object;
 import src.EZScene;
 
-abstract class EZEZGameObject extends Object {
+abstract class EZGameObject extends Object {
     public var scene: EZScene;
     public var sprite: Object;
     public var hitbox: Bounds;

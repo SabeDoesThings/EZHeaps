@@ -1,4 +1,4 @@
-package core;
+package ezcore;
 
 class EZAnim {
     public static function createAnimFromStrip(parent, image_resource:hxd.res.Image, speed, chosenFrames:Array<Int>, centered:Bool=true, ?flipX:Bool=false, ?flipY = false): h2d.Anim {
