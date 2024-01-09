@@ -1,23 +1,23 @@
 package src;
 
-import core.EZGameObject;
+import core.EZEntitiy;
 import hxd.App;
 import h2d.Scene;
 
 abstract class EZScene extends Scene {
     //add entities here
 
-    var entities: Array<EZGameObject> = [];
+    var entities: Array<EZEntitiy> = [];
 
     public function new(app: App) {
         super();
     }
 
-    public function addEntity(ent: EZGameObject) {
+    public function addEntity(ent: EZEntitiy) {
         entities.push(ent);
     }
 
-    public function removeEntity(ent: EZGameObject) {
+    public function removeEntity(ent: EZEntitiy) {
         entities.remove(ent);
         ent.dispose();
     }

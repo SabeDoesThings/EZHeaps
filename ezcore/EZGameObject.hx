@@ -6,7 +6,7 @@ import h2d.col.Bounds;
 import h2d.Object;
 import src.EZScene;
 
-abstract class EZGameObject extends Object {
+abstract class EZEntitiy extends Object {
     public var scene: EZScene;
     public var sprite: Object;
     public var hitbox: Bounds;
