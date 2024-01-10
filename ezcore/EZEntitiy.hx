@@ -1,5 +1,7 @@
 package ezcore;
 
+import h2d.Scene;
+import h2d.Graphics;
 import hxd.res.Image;
 import ezcore.EZAnim;
 import h2d.col.Bounds;
@@ -32,6 +34,16 @@ abstract class EZEntitiy extends Object {
         sprite.parent = this;
 
         return sprite;
+    }
+
+    public function createRect(color: Int, x: Float, y: Float, width: Float, height: Float, scene: Scene) {
+        var graphic = new Graphics(scene);
+
+        graphic.beginFill(color);
+        graphic.drawRect(x, y, width, height);
+        graphic.endFill();
+
+        return graphic;
     }
 
     public function useAnimationFromSpriteStrip(image_resource: Image, speed, chosenFrames: Array<Int>, centered: Bool = true) {
