@@ -10,7 +10,6 @@ Tutorial: Soon
 
 # Features To Add
 1. Camera
-2. built in Box2d
-3. Built in Tiled and LDTK Support
+2. built in Box2D
 
 If you think of any just put it in issues.
