@@ -9,7 +9,3 @@ Add any issues or features you would like me to add.
 Tutorial: Soon
 
 # Features To Add
-1. Camera
-2. built in Box2D
-
-If you think of any just put it in issues.
