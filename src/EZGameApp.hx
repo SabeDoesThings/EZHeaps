@@ -1,4 +1,4 @@
-import src.EZScene;
+import ezcore.EZScene;
 import scenes.TestScene;
 import hxd.App;
 

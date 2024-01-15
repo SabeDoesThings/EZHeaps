@@ -6,7 +6,7 @@ import hxd.res.Image;
 import ezcore.EZAnim;
 import h2d.col.Bounds;
 import h2d.Object;
-import src.EZScene;
+import ezcore.EZScene;
 
 abstract class EZEntitiy extends Object {
     public var scene: EZScene;

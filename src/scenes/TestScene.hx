@@ -1,6 +1,6 @@
 package scenes;
 
-import src.EZScene;
+import ezcore.EZScene;
 import hxd.App;
 
 class TestScene extends EZScene {
